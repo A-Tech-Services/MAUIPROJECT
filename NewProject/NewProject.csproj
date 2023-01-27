@@ -60,10 +60,13 @@
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\cap.png" />
 	  <None Remove="Resources\Images\calender.svg" />
-	  <None Remove="Resources\Images\add.svg" />
-	  <None Remove="Resources\Images\book.svg" />
-	  <None Remove="Resources\Images\task_calender.png" />
 	  <None Remove="Resources\Images\down.svg" />
+	  <None Remove="Resources\Images\time.png" />
+	  <None Remove="Resources\Images\dot.png" />
+	  <None Remove="Resources\Images\calendar.png" />
+	  <None Remove="Resources\Images\add.png" />
+	  <None Remove="Resources\Images\ book.png" />
+	  <None Remove="Resources\Images\bk.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\user2.png" />
@@ -73,10 +76,10 @@
 	  <BundleResource Include="Resources\Images\home.png" />
 	  <BundleResource Include="Resources\Images\cap.png" />
 	  <BundleResource Include="Resources\Images\calender.svg" />
-	  <BundleResource Include="Resources\Images\add.svg" />
-	  <BundleResource Include="Resources\Images\book.svg" />
-	  <BundleResource Include="Resources\Images\task_calender.png" />
 	  <BundleResource Include="Resources\Images\down.svg" />
+	  <BundleResource Include="Resources\Images\calendar.png" />
+	  <BundleResource Include="Resources\Images\add.png" />
+	  <BundleResource Include="Resources\Images\ book.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiImage Remove="Resources\Images\user2.png" />

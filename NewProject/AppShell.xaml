@@ -6,10 +6,27 @@
     xmlns:local="clr-namespace:NewProject"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
+    <!--<ShellContent
+        Title="Dashboard"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"
+        />-->
+
+    <TabBar>
+        <ShellContent Icon="home.png"
+                      ContentTemplate="{DataTemplate local:MainPage}"/>
+
+        <ShellContent Icon="calendar.png"
+                      ContentTemplate="{DataTemplate local:MainPage}"/>
+
+        <ShellContent Icon="bk.png"
+                      ContentTemplate="{DataTemplate local:MainPage}"/>
+
+        <ShellContent Icon="add.png"
+                      ContentTemplate="{DataTemplate local:MainPage}"/>
+
+    </TabBar>
+
 
 </Shell>
 
